@@ -1,10 +1,10 @@
-# ETL Job Monitoring Platform
+# PipelinePulse
 
 Data engineering portfolio project for Data Engineer and Software Engineer roles.
 
 Author: Maharshi Roy  
 GitHub: https://github.com/MaharshiRoy  
-Suggested repository: `etl-job-monitoring-platform`
+Suggested repository: `pipelinepulse`
 
 This project simulates a production batch monitoring platform. It generates batch job runs, tracks failures, detects SLA breaches, runs data quality checks, identifies recurring failure patterns, and exports analyst-ready marts.
 
@@ -26,7 +26,7 @@ This project simulates a production batch monitoring platform. It generates batc
 ## Run Locally
 
 ```powershell
-python src/etl_monitoring.py --db artifacts/service_ops_demo.sqlite --days 21 --seed 42 --export-dir artifacts/exports
+python src/pipelinepulse.py --db artifacts/service_ops_demo.sqlite --days 21 --seed 42 --export-dir artifacts/exports
 ```
 
 Outputs:
@@ -69,9 +69,9 @@ artifacts/exports/mart_daily_job_health.csv
 
 ## GitHub Publish
 
-Create a public GitHub repository named `etl-job-monitoring-platform`, then run:
+Create a public GitHub repository named `pipelinepulse`, then run:
 
 ```powershell
-git remote add origin https://github.com/MaharshiRoy/etl-job-monitoring-platform.git
+git remote add origin https://github.com/MaharshiRoy/pipelinepulse.git
 git push -u origin main
 ```
