@@ -3,7 +3,6 @@ A production-inspired ETL pipeline for simulating batch pipelines, monitoring jo
 
 Author: Maharshi Roy  
 GitHub: https://github.com/MaharshiRoy  
-Suggested repository: `pipelinepulse`
 
 ---
 
@@ -141,11 +140,3 @@ artifacts/exports/mart_daily_job_health.csv
 | `mart_daily_job_health` | Daily reliability mart for dashboarding |
 
 
-## 🔗 GitHub Publish
-
-Create a public GitHub repository named `pipelinepulse`, then run:
-
-```powershell
-git remote add origin https://github.com/MaharshiRoy/pipelinepulse.git
-git push -u origin main
-```
